@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="UTF-8">
+      <title>Formulário</title>
+      <link  rel="stylesheet"  type="text/css" href="css.css">
+    </head>
+    <header>    
+     <a><img src="C:\Users\Admin\Desktop\Formulário\Fotos\Sem Título-2.png" alt="IBGE"></a> 
+     <h1>Formulário IEGE 2022</h1>
+     </header>
+    <body>
+        <main>
+            <section>
+                <h2>Preencha seus dados corretamente nas lacunas abaixo:</h2>
+               <form>
+                 <label for="Nome">Nome Completo:</label>
+                 <input type="text" id="nome" name="nome"> 
+                 <label for="dt nascimento">Data de Nascimento:</label>
+                 <input type="date" id="st nascimento" name="dt nascimento">
+                 <br>
+                 <label for="e-mail">E-mail:</label>
+                 <input type="email" id="e-mail" name="e-mail"placeholder="exemplo@iege.com.br">
+                 <label for="Celular">Telefone:</label>
+                 <input type="tel" id="Celular" name="Celular" placeholder="47 99999-9999">
+                 <label for="Estado Civil">Estado Civil</label>
+                 <input list="Estado Civil">
+                    <datalist id="Estado Civil">
+                        <option value="Solteiro(a)"></option>
+                        <option value="Casado(a)"></option>
+                        <option value="Divorciado(a)"></option>
+                        <option value="Víuvo(a)"></option>
+                    </datalist>
+                    <div>
+                       <input type="reset" id="Apagar" name="Apagar" class="Botões">
+                       
+                       <input type="submit" id="Enviar" name="enviar" class="Botões">
+                    </div>
+                </form>
+            </section>
+        </main>
+    </body>
+    <footer>
+        <h3>Telefone para contato e assistência técnica (47)996776360</h3>
+    </footer>
+</html>    
